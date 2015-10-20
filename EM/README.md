@@ -13,3 +13,12 @@ The estimated model parameters (mean vectors, covariance matrices, and mixture w
 For the specified initialization, compute the log likelihood scores of the observed data log p(X |  (t) ) for t=1,2,...,100, and show in a plot the function values vs. t for the specified range of iterations .
 
 For the specified initialization, use the maximum posterior probability rule to assign each data sample xn to one of the four clusters k =1,2,3,4:
+
+
+assign12.m
+(1) For the coin-tossing example discussed , implement the EM algorithm in MATLAB.
+(2) Run the EM procedure with the initialization of theta(0) = (thetaA, thetaB) = (0.6,0.4) for iterations.
+
+(3) A table containing the parameter estimates theta(t) = (thetaA, thetaB) for t = 1,2,...10
+(4) The posterior probabilities.
+(5) The log probabilities.
